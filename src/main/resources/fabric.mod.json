@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "afkfarm",
+  "version": "1.0.0",
+  "name": "AFK Farm",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.afkfarm.AfkFarmClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.3",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
